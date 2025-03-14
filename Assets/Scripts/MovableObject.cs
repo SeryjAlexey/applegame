@@ -3,11 +3,12 @@ using UnityEngine;
 public class MovableObject : MonoBehaviour, IInteractable
 {
     private Rigidbody2D rb;
-    private Collider2D collider2d;
+    [SerializeField]private Collider2D collider2d;
+    private Sprite sprite;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        collider2d = GetComponent<Collider2D>();
+        sprite = GetComponent<SpriteRenderer>().sprite;
     }
     public void Interact(Touch touch)
     {
@@ -23,8 +24,11 @@ public class MovableObject : MonoBehaviour, IInteractable
         }
         else if(touch.phase == TouchPhase.Ended)
         {
-            collider2d.isTrigger = false;
-            rb.bodyType = RigidbodyType2D.Dynamic;
+            if(Physics2D.OverlapAreaAll(collider2d.bounds.min, collider2d.bounds.max).Length <= 2)
+            {
+              collider2d.isTrigger = false;
+              rb.bodyType = RigidbodyType2D.Dynamic;
+            }
         }
     }
 }

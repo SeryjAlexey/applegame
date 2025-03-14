@@ -1,0 +1,23 @@
+# ninja log v5
+43	3529	7636685981074420	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	a50821562602a4a6
+4015	4108	7636685987884722	C:/Users/lexag/mi/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/46716174/obj/arm64-v8a/libswappywrapper.so	d15294a291780276
+52	3849	7636685985163692	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1fc1651ab0c957ab
+29	3588	7636685981403560	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	5f45eb65facc2597
+46	3697	7636685983498134	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	943ad9dbace47be8
+1	4104	7636685987775013	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	e21d286db6b8179b
+49	3934	7636685986121129	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e878b527c1723565
+8	4300	7636685989781991	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1c3ed3ffe1bb2100
+3538	4014	7636685986954061	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e1b5b7339cbd343f
+33	4089	7636685987648682	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	54a9442a36a7f565
+4300	4381	7636685990639244	C:/Users/lexag/mi/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/46716174/obj/arm64-v8a/libgame.so	cb2b466e062eff99
+35	9278	7636704523988326	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	a50821562602a4a6
+30	9324	7636704524237667	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	943ad9dbace47be8
+23	9326	7636704524337407	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	5f45eb65facc2597
+38	9328	7636704524407209	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e878b527c1723565
+27	9363	7636704525035528	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	e21d286db6b8179b
+44	9370	7636704525055477	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1fc1651ab0c957ab
+9279	9610	7636704527643940	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e1b5b7339cbd343f
+41	9634	7636704527829494	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	54a9442a36a7f565
+33	9748	7636704528983136	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1c3ed3ffe1bb2100
+9610	9855	7636704530074290	C:/Users/lexag/mi/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/46716174/obj/arm64-v8a/libswappywrapper.so	d15294a291780276
+9748	9858	7636704530074290	C:/Users/lexag/mi/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/46716174/obj/arm64-v8a/libgame.so	cb2b466e062eff99

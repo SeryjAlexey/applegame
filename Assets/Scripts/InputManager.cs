@@ -29,8 +29,8 @@ public class InputManager : MonoBehaviour
             }
             else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
             {
-                touched_interactable.Interact(touch);
                 active_interactables.Remove(touched_interactable);
+                touched_interactable.Interact(touch);
             }
         }
 
